@@ -73,3 +73,8 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Обратите внимание
+
+Изначально открывается главная страница. Чтобы перейти к странице для проверки, перейдите на страницу "Кейсы" (/cases) любым удобным способом
+

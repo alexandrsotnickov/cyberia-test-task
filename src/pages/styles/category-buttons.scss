@@ -1,0 +1,39 @@
+.category-buttons {
+  display: flex;
+  gap: 120px;
+  height: 40px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1920px) {
+  .category-buttons {
+    gap: 80px;
+  }
+}
+
+@media (max-width: 1792px) {
+  .category-buttons {
+    gap: 45px;
+  }
+}
+
+@media (max-width: 1570px) {
+  .category-buttons {
+    gap: 45px;
+  }
+}
+
+@media (max-width: 1296px) {
+  .category-buttons {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1169px) {
+  .category-buttons {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
